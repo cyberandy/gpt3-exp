@@ -1,8 +1,6 @@
 # WordLift GPT-3: Experimentation tool for SEO
 
-Code based on [Pratos](https://github.com/pratos/gpt3-exp)'s experimentation tool for GPT-3. 
-
-![tool-gif](assets/tool-gpt3.gif)
+Code based on [Pratos](https://github.com/pratos/gpt3-exp)'s experimentation tool for GPT-3. He did all the hard work really.
 
 __Note: You can read more on our [blog](https://wordlift.io/blog/en)__
 
