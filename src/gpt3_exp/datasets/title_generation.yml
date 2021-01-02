@@ -1,0 +1,30 @@
+name: Headline
+language: English
+nlp_task: generation
+input: topic
+output: title
+dataset:
+  one:
+    "topic: Britain, coronavirus, beaches \n
+    title: Videos show crowded beaches in Britain"
+  two:
+    "topic: Apple, Big Sur, software \n
+    title: Apple promises faster software update installation with macOS Big Sur"
+  three:
+    "topic: Artic, climate change, satellite \n
+    answer: A Satellite Lets Scientists See Antarctica’s Melting Like Never Before"
+  four:
+    "topic: Amazon, indexing, guide \n
+    title: A Guide to Amazon Indexing & How to Check Your Keyword Indexing"
+  five:
+    "topic: Links, Google, penalize \n
+    title: 10 Bad Links That Can Get You Penalized by Google"  
+  six:
+    "topic: content writing, secrets \n
+    title: How to Write Content Better & Faster: 10 Secrets to Try Now"  
+  seven:
+    "topic: pinterest, seo, tips \n
+    title: 12 Pinterest SEO Tips for High-Traffic Success"  
+  eight:
+    "topic: Google, alternatives \n
+    title: 17 Great Search Engines You Can Use Instead of Google"  
