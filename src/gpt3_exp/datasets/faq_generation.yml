@@ -1,0 +1,18 @@
+name: FAQ
+language: English
+nlp_task: q&a
+input: question
+output: answer
+dataset:
+  one:
+    "question: What is AI powered SEO? \n
+    answer: Search engines rely on artificial intelligence and machine learning to serve up answers to natural language queries every day across desktop, mobile, and voice search. In fact, AI models from companies like Google essentially determine how your content ranks and who sees it."
+  two:
+    "question: Is SEO important in 2020? \n
+    answer: The strength of SEO and driving organic traffic is clear. Organic search usage and share is outpacing growth in other channels. ... Optimizing your pages for SEO is going to be even more important in 2020 as organic search continues to rise above other search traffic."
+  three:
+    "question: What is WordLift? \n
+    answer: WordLift is a lightweight plugin that brings state-of-the-art semantic technologies to the hands of any bloggers and publishers."
+  four:
+    "question: Is SEO Dead 2020?? \n
+    answer: Diversifying and refining SEO techniques is key to getting customers in a world where they don't even need to leave a search engine to get what they need. SEO is not dead in 2020, nor will SEO ever be dead, as long as the internet continues to exist."
