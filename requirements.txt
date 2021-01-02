@@ -1,5 +1,5 @@
 openai
 pyyaml
-re
+regex
 pathlib
 loguru
