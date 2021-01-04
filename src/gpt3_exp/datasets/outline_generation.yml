@@ -1,0 +1,77 @@
+name: Outline
+language: English
+nlp_task: generation
+description: Write the target query (i.e. structured data)
+input: query
+output: outline
+dataset:
+  one:
+    "query: ai tools for seo\n
+    outline: Artificial Intelligence & SEO
+    Insight Tools
+    Automation tools
+    Personalization tools\n\n"
+  two:
+    "query: affordable video hosting\n
+    outline: Is It Better to Host My Own Videos or Use a Video Hosting Site?
+    10 Best Video Hosting Platforms in 2021
+    Free Video Hosting Options
+    Premium Video Hosting
+    What Is the Best Video Hosting Solution?\n\n"
+  three:
+    "query: keyword research steps\n
+    outline: Keyword Research Fundamentals
+    Search Volume and Long Tail Keywords
+    Search Intent
+    The Role of LSI and Synonyms
+    How Do You Do Keyword Research? (Step-by-Step Guide)
+    What Is The Best Keyword Research Tool?\n\n"
+  four:
+    "query: business model\n
+    outline: What Is a Business Model?
+    Understanding Business Models
+    Special Considerations
+    Types of Business Models
+    Criticism of Business Models
+    Examples of Business Models\n\n"
+  five:
+    "query: use wordpress for free\n
+    outline: The Two Meanings of Free Applied to WordPress
+    So How Is WordPress Funded?
+    How to Get a WordPress Site for Free
+    What Aspects of WordPress are Free?
+    Aspects of WordPress That Aren't Free\n\n"
+  six:
+    "query: is google cloud hosting good\n
+    outline: Google Cloud Hosting Advantages
+    Better Pricing Than Competitors
+    Private Global Fiber Network
+    Live Migration of Virtual Machines
+    Improved Performance
+    State of the Art Security
+    Dedication to Continued Expansion
+    Redundant Backups\n\n"
+  seven:
+    "query: seo for small business\n
+    outline: What on earth is SEO?
+    Is SEO right for your small business?
+    How to choose an SEO provider
+    Can you do SEO yourself?
+    SEO-friendly small business websites
+    Small business SEO tools
+    Small business SEO tips & checklist
+    Small business SEO nirvana\n\n"
+  eight:
+    "query: bert seo google\n
+    outline: What it is, how it works and what it means for search
+    When did BERT roll out in Google Search?
+    What is BERT?
+    What is a neural network?
+    What is natural language processing?
+    How does BERT work?
+    Does Google use BERT to make sense of all searches?
+    How will BERT impact my featured snippets?
+    What's the difference between BERT and RankBrain?
+    What other Google products might BERT affect?
+    How can I optimize for BERT? That's not really the way to think about it
+    Want to learn more about BERT?\n\n"
