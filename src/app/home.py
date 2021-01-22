@@ -14,8 +14,7 @@ from loguru import logger
 PAGE_CONFIG = {
     "page_title":"GPT-3 for SEO by WordLift",
     "page_icon":"assets/fav-ico.png",
-    "layout":"centered"
-    }
+    "layout":"centered"}
 st.set_page_config(**PAGE_CONFIG)
 
 # Settings models and path
