@@ -32,7 +32,7 @@ PARAMS = {}
 def experimentation() -> None:
     # Sidebar (logo, key and model selection)
     st.sidebar.image("assets/logo-wordlift.png", width=200)
-    key_added = st.sidebar.text_area("Add OpenAI key *", max_chars=43)
+    key_added = st.sidebar.text_area("Add OpenAI key *", max_chars=55)
     key_submit = st.sidebar.button("Submit key")
     if key_submit:
         openai.api_key = key_added

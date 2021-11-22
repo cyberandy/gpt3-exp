@@ -1,0 +1,15 @@
+name: WebNLG
+language: German
+nlp_task: generation
+description: Add the list of attributes (i.e. Ludwig-Maximilians-Universität | established | 1472 | Ludwig-Maximilians-Universität | numberOfStudents | 51420 | Ludwig-Maximilians-Universität | city | München | Ludwig-Maximilians-Universität | academicStaffSize | 5565)
+input: attribute
+output: description
+dataset:
+  one: >-
+    "Schreiben in deutscher Sprache\n\n"
+  two: >-
+    "input: Aarhus BSS | academicStaffSize | 737 | Aarhus BSS | dean | Thomas Pallesen | Aarhus BSS | city | Aarhus | Aarhus BSS | numberOfStudents | 16000 | European_University_Association | headquarters | Brussels | Aarhus BSS | country | Denmark | Aarhus BSS | affiliation | European_University_Association  \n
+    description: Die School Wirtschafts und Sozialwissenschaften an der Aarhus Univerrsity in der Stadt Aarhus, Dänemark, ist der Europäische Hochschulvereinigung mit Hauptsitz in Brüssel angegliedert. Die Schule wird von Dekan Thomas Pallesen geleitet und hat 16000 Studenten und 737 wissenschaftliche Mitarbeiter.\n\n"
+  three: >-
+    "input: Aarhus BSS | city | Aarhus | Aarhus BSS | academicStaffSize | 737 | Aarhus BSS | numberOfStudents | 16000 | Aarhus BBS | country | Denmark | Aarhus BBS | latinName | Universitas Aarhusiensis | Aarhus BBS | affiliation | European_University_Association | Aarhus BBS | established | 1928 \n
+    description: Im Jahr 1928 wurde die School of Business and Social Sciences an der Universität Aarhus in der Stadt Aarhus, Dänemark, gegründet. Der lateinische Name ist "Universitas Aarhusiensis" und die Schule ist jetzt mit der Europäische Hochschulvereinigung angeschlossen. Es gibt 1600 Studenten und 737 akademische Mitarbeiter.\n\n"
