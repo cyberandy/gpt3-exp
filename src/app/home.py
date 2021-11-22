@@ -43,7 +43,7 @@ def experimentation() -> None:
     st.sidebar.info("The goal is to test all the possible SEO use-cases for GPT-3.")
 
     # Main screen layout
-    col1, col2 = st.columns([2.5, 1])
+    col1, col2 = st.columns([3, 1])
 
     # Left Column (col1)
     col1.title("👾 GPT-3 Experimentation 👾")
