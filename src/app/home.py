@@ -40,7 +40,7 @@ def experimentation() -> None:
         st.balloons()
     PARAMS["engine"] = st.sidebar.selectbox("Select OpenAI model(`engine`):", MODELS)
     st.sidebar.subheader("About this demo")
-    st.sidebar.info("The goal is to test all the possible SEO use-cases for GPT-3.")
+    st.sidebar.info("The goal is to test all the possible SEO use-cases for <a href="http://wordlift.io">GPT-3</a>.")
 
     # Main screen layout
     col1, col2 = st.columns([2.5, 1])
@@ -61,15 +61,6 @@ def experimentation() -> None:
     PARAMS[
         "prompt"
     ] = f"{parsed_primes}\n\n{dataset['input']}:{prompt}\n{dataset['output']}:"
-
-    # Stop button
-    #stop = col1.button("Stop request")
-    #if stop:
-    #    col1.error("Process stopped")
-    #    col1.stop()
-    # except Exception as err:
-    #     st.error(f"[ERROR]:: {err}")
-
 
     # Right Column (col2) GPT-3 parameters
     PARAMS["max_tokens"] = col2.slider(
