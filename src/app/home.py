@@ -40,7 +40,7 @@ def experimentation() -> None:
         st.balloons()
     PARAMS["engine"] = st.sidebar.selectbox("Select OpenAI model(`engine`):", MODELS)
     st.sidebar.subheader("About this demo")
-    st.sidebar.info("The goal is to test all the possible SEO use-cases for <a href="http://wordlift.io">GPT-3</a>.")
+    st.sidebar.info("The goal is to test all the possible SEO use-cases for GPT-3.")
 
     # Main screen layout
     col1, col2 = st.columns([2.5, 1])
