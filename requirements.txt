@@ -2,4 +2,3 @@ openai
 pyyaml
 regex
 pathlib
-loguru
