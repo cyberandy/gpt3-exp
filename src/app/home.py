@@ -76,10 +76,10 @@ def experimentation() -> None:
 
     # Right Column (col2) GPT-3 parameters
     PARAMS["max_tokens"] = col2.slider(
-        "Max Tokens to generate(`max_tokens`):", min_value=1, max_value=2048, value=64, step=25
+        "Max Tokens to generate:", min_value=1, max_value=2048, value=64, step=25
     )
     PARAMS["best_of"] = col2.slider(
-        "Max number of completions(`best_of`):", min_value=1, max_value=2048, step=1
+        "Max number of completions:", min_value=1, max_value=2048, step=1
     )
     randomness = col2.radio("Randomness param:", ["temperature", "top_n"])
     if randomness == "temperature":
@@ -93,10 +93,10 @@ def experimentation() -> None:
 
     PARAMS["stop"] = "\n"
     PARAMS["presence_penalty"] = col2.slider(
-        "Presence penalty(`presence_penalty`)", min_value=0.0, max_value=1.0
+        "Presence penalty:", min_value=0.0, max_value=1.0
     )
     PARAMS["frequency_penalty"] = col2.slider(
-        "Frequency penalty(`frequence_penalty`)", min_value=0.0, max_value=1.0
+        "Frequency penalty:", min_value=0.0, max_value=1.0
     )
 
     # Debug option

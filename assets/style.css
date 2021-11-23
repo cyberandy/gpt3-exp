@@ -1,3 +1,6 @@
+#MainMenu {
+    visibility: hidden;
+}
 .stButton>button {
     border-color: rgb(230, 234, 241);
     width: 150px;
