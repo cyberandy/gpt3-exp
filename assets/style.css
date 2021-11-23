@@ -1,0 +1,24 @@
+.stButton>button {
+    border-color: rgb(230, 234, 241);
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    box-shadow: 0 8px 18px 0 rgba(255, 132, 1, 0.26);
+    background-color: #ff8401;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #fbfbfb;
+}
+
+.stButton>button:hover {
+    border-color: rgb(230, 234, 241);
+    color: #fbfbfb;
+    opacity: 0.75;
+}
+
+.stButton>button:active {
+    border-color: rgb(230, 234, 241);
+    background-color: #ff8401;
+    color: #fbfbfb;
+}

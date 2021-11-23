@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Updated on Tue Nov 23 2021
+
+@author: Andrea Volpini
+"""
+
 import streamlit as st
 import json
 import openai
@@ -9,13 +16,17 @@ from time import perf_counter
 from typing import Dict
 from openai.openai_object import OpenAIObject
 from loguru import logger
+from Interface import *
 
 # Adding st page configuration
 PAGE_CONFIG = {
     "page_title":"GPT-3 for SEO by WordLift",
     "page_icon":"assets/fav-ico.png",
     "layout":"wide"}
+
 st.set_page_config(**PAGE_CONFIG)
+
+local_css("assets/style.css")
 
 # Settings models and path
 MODELS = ["davinci", "curie", "babbage", "ada"]
@@ -31,22 +42,23 @@ PARAMS = {}
 # Experimentation - here is where everything happens
 def experimentation() -> None:
     # Sidebar (logo, key and model selection)
-    st.sidebar.image("assets/logo-wordlift.png", width=200)
+    st.sidebar.image("assets/logo-wordlift.png")
     key_added = st.sidebar.text_area("Add OpenAI key *", max_chars=55)
     key_submit = st.sidebar.button("Submit key")
     if key_submit:
         openai.api_key = key_added
         st.write("(OpenAI key loaded)")
         st.balloons()
-    PARAMS["engine"] = st.sidebar.selectbox("Select OpenAI model(`engine`):", MODELS)
-    st.sidebar.subheader("About this demo")
-    st.sidebar.info("The goal is to test all the possible SEO use-cases for GPT-3. Learn more about our [solutions for SEO automation](https://wordlift.io/enterprise-seo-platform/).")
+    PARAMS["engine"] = st.sidebar.selectbox("Select OpenAI model:", MODELS)
+    st.sidebar.subheader("About this app")
+    st.sidebar.info("The goal is to test all the possible SEO use-cases for GPT-3.")
+    st.sidebar.info(" Learn more about our [solutions for SEO automation](https://wordlift.io/enterprise-seo-platform/).")
 
     # Main screen layout
     col1, col2 = st.columns([3, 1])
 
     # Left Column (col1)
-    col1.title("👾 GPT-3 Experimentation 👾")
+    col1.title("GPT-3 for SEO 🖋")
     col1.markdown(f"Model selected: `{PARAMS['engine']}`")
 
     dataset = []
