@@ -7,25 +7,22 @@ output: optimized
 dataset:
   one:
     "title_query: Facebook market A Comprehensive Guide for Marketers | facebook marketplace fees\n
-    optimized: Facebook Marketplace: A Comprehensive Guide for Marketers\n\n"
+    optimized: Facebook Marketplace Fees: A Comprehensive Guide for Marketers\n\n"
   two:
-    "title_query: How to Make Money on Instagram: 3 good Strategies | how to make money on instagram\n
+    "title_query: How to Grow Traffic on Instagram: 3 good Strategies | how to make money on instagram\n
     optimized: How to Make Money on Instagram: 3 Foolproof Strategies\n\n"
   three:
-    "title_query: How to Add link to Instagram Stories with twitter | how to add a link to instagram story\n
-    optimized: How to Add Links to Instagram Stories with Swipe-Up\n\n"
+    "title_query: How to Add link to Stories with twitter | link to instagram stories\n
+    optimized: How to Add Links to Instagram Stories with via Twitter\n\n"
   four:
     "title_query: 15 Social Media education Courses and Resources | social media management course\n
-    optimized: 15 Social Media Training Courses and Resources\n\n"
+    optimized: 15 Social Media Management Training Courses and Resources\n\n"
   five:
-    "title_query: How to Get Free YouTube members (the Real Way) | how to get more subscribers on youtube\n
-    optimized: How to Get Free YouTube Subscribers (the Real Way)\n\n"
+    "title_query: How to Get Free YouTube members (the Real Way) | get more subscribers\n
+    optimized: How to Get more Subscribers on Your YouTube channel (the Real Way)\n\n"
   six:
-    "title_query: How the same Algorithm Works in 2020 (and How to Work With It) | how tiktok algorithm works\n
-    optimized: How the TikTok Algorithm Works in 2020 (and How to Work With It)\n\n"
+    "title_query: How the same Algorithm Works in 2021 (and How to Work With It) | how tiktok algorithm works\n
+    optimized: How the TikTok Algorithm Works in 2021 (and How to Work With It)\n\n"
   seven:
     "title_query: 6 Ways to measure Engagement Rate on Social Media | how to calculate average engagement rate on twitter\n
-    optimized: 6 Ways to Calculate Engagement Rate on Social Media\n\n"
-  eight:
-    "title_query: How to Write the Best video video Tips and Examples | how to do a youtube description\n
-    optimized: How to Write the Best YouTube Descriptions: Tips and Examples\n\n"
+    optimized: 6 Ways to Calculate Average Engagement Rate on Twitter\n\n"
