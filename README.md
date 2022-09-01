@@ -2,7 +2,7 @@
 
 Code based on [Pratos](https://github.com/pratos/gpt3-exp)'s experimentation tool for GPT-3. He did all the hard work really.
 
-__Note: You can read more on our [blog](https://wordlift.io/blog/en)__.
+__Note: You can read more on our [blog](en)__.
 
 This streamlit application is tool to experiment with GPT-3 in the context of SEO.
 
