@@ -1,0 +1,8 @@
+name: Title optimization
+language: English
+nlp_task: generation
+description: Add here the title that you would like to re-write
+input: Rewrite the following blog post title into three different titles optimized for SEO
+output: "\n\n"
+dataset:
+  one: "\n\n"
