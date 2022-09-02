@@ -45,7 +45,7 @@ def experimentation() -> None:
         "Select OpenAI model(`engine`):", MODELS)
     st.sidebar.subheader("About this demo")
     st.sidebar.info(
-        "The goal is to test all the possible SEO use-cases for GPT-3.")
+        "The goal is to test possible SEO use-cases for GPT-3. More about [SEO automation](https://wordlift.io/blog/en/seo-automation/) on our blog.")
 
     # Main screen layout
     col1, col2 = st.columns([2.5, 1])
